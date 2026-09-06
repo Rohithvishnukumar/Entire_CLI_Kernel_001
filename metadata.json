@@ -1,0 +1,39 @@
+{
+  "cli_version": "0.10.5",
+  "checkpoint_id": "01M1TM6JKPX4MV0DV829FQ77GA",
+  "strategy": "manual-commit",
+  "branch": "RV/Entire_Trunk",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "entire-lens",
+    "entire-lens.cmd",
+    "tools/checkpoint_lens/__init__.py",
+    "tools/checkpoint_lens/__pycache__/__init__.cpython-311.pyc",
+    "tools/checkpoint_lens/__pycache__/cli.cpython-311.pyc",
+    "tools/checkpoint_lens/__pycache__/graph.cpython-311.pyc",
+    "tools/checkpoint_lens/__pycache__/models.cpython-311.pyc",
+    "tools/checkpoint_lens/__pycache__/reader.cpython-311.pyc",
+    "tools/checkpoint_lens/__pycache__/report.cpython-311.pyc",
+    "tools/checkpoint_lens/cli.py",
+    "tools/checkpoint_lens/graph.py",
+    "tools/checkpoint_lens/models.py",
+    "tools/checkpoint_lens/reader.py",
+    "tools/checkpoint_lens/report.py"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 76,
+    "cache_creation_tokens": 138371,
+    "cache_read_tokens": 4826471,
+    "output_tokens": 43111,
+    "api_call_count": 38
+  }
+}

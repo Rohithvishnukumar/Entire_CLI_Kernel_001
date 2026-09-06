@@ -1,0 +1,11 @@
+& 'd:\Sync_Seagate\Mirror\desk\BTW Buildathon 2026 - Participant Guide -Updated.pdf'd:\Sync_Seagate\Mirror\desk\BUILDATHON_HANDOFF.md& 'd:\Sync_Seagate\Mirror\desk\BTW Buildathon 2026 _ Entire, Databricks & The Noon Curveball.pdf'
+
+
+
+read this entire doc, i have picked the first track, now i need to start building the First Track, Always keep in the mind that i need to win tis hackathon any how at any cost, also you need to integrate it with DataBricks for sure. My end tool that is getting built should contain all these Review an implementation against its original intent
+Identify unfinished requirements
+Assess a change
+Hand off work to another developer or agent. Also at this point of time they havent given the Noon Curve Ball Yet. Do not hesitate to ask any questions. I need to Win this at any cost, this is very important to me. If want to chagne the plan that is different from the current Project Status Log you are free to do that.I need to win this 
+
+
+i have build a little bit also check whether it follows the Participant Guide: Project Status Log — BTW Buildathon 2026, Track 1 attached here: d:\Sync_Seagate\Mirror\desk\PROJECT_STATUS_LOG.md
