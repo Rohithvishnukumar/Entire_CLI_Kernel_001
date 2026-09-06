@@ -1,0 +1,46 @@
+diff <(entire graph agent-guide) .entire/graph-agent.md
+
+---
+
+cat CLAUDE.md
+
+---
+
+I'm using this fork of entireio/cli to build a separate tool for a hackathon
+(BTW Buildathon 2026, Track 1), not to contribute to the Entire CLI itself.
+Read BUILDATHON_HANDOFF.md in this repo root first for full context on what
+we're building, why, and the constraints we're working under.
+
+Then do these three things in order:
+
+1. Edit CLAUDE.md: add a new top-level section titled
+   "## Project Context for This Build (Buildathon 2026)" near the TOP of the
+   file. It must sit OUTSIDE the <!-- entire-graph:begin --> / 
+   <!-- entire-graph:end --> markers — do not touch anything inside those
+   markers. In this new section, explain: this fork is not for CLI
+   contribution work; we're building a "Checkpoint Resume & Drift Assistant"
+   (entire resume, entire drift, and a stretch entire assess command) that
+   reads this repo's own Entire Checkpoints and Graph data; point to
+   BUILDATHON_HANDOFF.md for full detail; and note that the rest of this
+   file's contributor/build instructions should only be followed if directly
+   relevant to running `entire` or `entire graph` as a tool consumer, not for
+   modifying the core CLI.
+
+2. Commit everything with a substantive commit message (this is our required
+   "initial understanding and architecture" checkpoint, and checkpoint
+   quality is graded, so make the message genuinely descriptive, not just
+   "setup"). Cover: the user and problem, why Entire is essential here, the
+   planned architecture (shared CheckpointReader + GraphClient core, then
+   resume/drift/assess commands, plus a Databricks analytics layer), and any
+   open questions we still need to decide.
+
+3. After committing, run an entire-graph search to investigate where
+   checkpoint session data is actually stored and parsed in this codebase
+   (look in api/checkpoint and internal/ as likely locations) — use
+   `entire graph search` for this, don't just grep. Report back what you
+   find: the relevant file paths, the data structures involved, and
+   anything that changes how we should design CheckpointReader.
+
+Do not start writing the resume/drift implementation yet — just do these
+three steps and report back what you found in step 3 so we can plan the
+CheckpointReader together.
